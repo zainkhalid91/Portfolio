@@ -37,15 +37,17 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <div className="experience-div-company">
           <h5 className="experience-text-company">{cardInfo.company}</h5>
         </div>
-
-        <img
+<div className="experience-roundedimg"
+>  <img
           crossOrigin={"anonymous"}
           ref={imgRef}
-          className="experience-roundedimg"
+          className="img-style"
           src={cardInfo.companylogo}
           alt={cardInfo.company}
           onLoad={() => getColorArrays()}
-        />
+          
+        /></div>
+       
       </div>
       <div className="experience-text-details">
         <h5
