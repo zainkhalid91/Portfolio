@@ -138,11 +138,12 @@ const workExperiences = {
       company: "National Information Technology Board",
       companylogo: require("./assets/images/nitbLogo.png"),
       date: "June 2020 – Present",
-      desc: "Currently working on E-Governance Applications. Responsible for collecting requirements from various departments like Product Development teams & Design teams and translating them into front end UI leading upto detailed design document with all implementation details. ",
+      desc: "I am part of a large scale team currently working on E-Governance Applications. Main goal is to create new apps from scratch. Coordinate with design and product development teams in order to ensure the best possible use cases and UI/Ux for products under development.",
       descBullets: [
         "Restful API’s using Repository Pattern, MVVM, Clean Architecture",
         "Java, Kotlin, Coroutines, and Jet Pack Compose UI",
-        "Restful API’s using retrofit"
+        "Retrofit",
+        "Data Binding and View Binding"
       ]
     },
     {
@@ -150,21 +151,38 @@ const workExperiences = {
       company: "EzDealz",
       companylogo: require("./assets/images/ic_ezdealz_logo.png"),
       date: "Dec 2019 – June 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Worked on creating a quiz app using RMPT protocol. Wrote Algorithms to get users click time down to milliseconds. Integrated Red5Pro SDK for video streaming during the live quiz session. I was also tasked to integrate transaction through Easy Paisa and Jazz Cash API's for subscriptions and award system offered by the app." ,
+       descBullets: [
+        "Restful API’s using JAVA, XML, Databinding",
+        "RMTP Protocol",
+        ,"Red5Pro SDK",
+      ]
     },
     {
       role: "Android Developer",
       company: "Reactive Space",
       companylogo: require("./assets/images/reactivespaceLogo.png"),
       date: "Jan 2019 – Dec 2019",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Worked on developing crypto wallets, e-commerce apps for android devices. I was handed the responsibility to create the projects from scratch. Key features from the projects included encryption during transaction of crypto, P2P and group chat, e-store, social media apps.",
+      descBullets: [
+        "Restful API’s using JAVA, XML, Databinding",
+        ,"Data Structures",
+  "Chat apps",
+  "Crypto Wallets",
+  "E-commerce Apps"
+        
+      ]
     },
     {
       role: "Android Developer Intern",
       company: "QuellxCode",
       companylogo: require("./assets/images/quellxcodeLogo.png"),
       date: "May 2018 – Dec 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "As an android intern my responsibilities were to coordinate with senior developers and understand the whole life cycle of project development. I helped create projects for different clients which include functionality like booking and tracking users on map, Google ads, Firebase.",
+      descBullets: [
+        "Java, XML",
+        "Retrofit"
+      ]
     }
   ]
 };
@@ -184,7 +202,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/nitbLogo.png"),
       projectName: "Saayahealth",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -265,7 +283,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -289,7 +307,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -308,7 +326,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -321,7 +339,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -336,7 +354,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
@@ -344,7 +362,7 @@ export {
   greeting,
   socialMediaLinks,
   skillsSection,
-  educationInfo,
+  educationInfo,  
   techStack,
   workExperiences,
   openSource,
