@@ -32,7 +32,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.gmail ? (
+      {/* {socialMediaLinks.gmail ? (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
           className="icon-button google"
@@ -42,7 +42,7 @@ export default function socialMedia() {
           <i className="fab fa-google"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
 
       {socialMediaLinks.gitlab ? (
         <a
@@ -99,7 +99,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-medium"></i>
+         <i class="fab fa-codepen" ></i>
+
           <span></span>
         </a>
       ) : null}

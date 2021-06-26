@@ -11,7 +11,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Zain Ali Khalid",
+  username: "",
   title: "Hi all, I'm Zain",
   subTitle: emoji(
     "A passionate Android Developer 🚀 having an experience of building Mobile applications with Java / Kotlin / XML / Repository Pattern / MVVM architechures and some other cool libraries."
@@ -28,8 +28,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/zain-ali-khalid/",
   gmail: "zainkhalid1991@gmail.com",
   gitlab: "https://gitlab.ictintegrators.net/zain.ali",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://www.facebook.com/DarkStar10/",
+  facebook: "https://www.facebook.com/DarkStar10/",
+  medium: "https://profile.codersrank.io/user/zainkhalid91/",
   stackoverflow: "https://stackoverflow.com/users/8284776/zain",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
@@ -155,7 +155,7 @@ const workExperiences = {
        descBullets: [
         "Restful API’s using JAVA, XML, Databinding",
         "RMTP Protocol",
-        ,"Red5Pro SDK",
+        "Red5Pro SDK",
       ]
     },
     {
@@ -166,7 +166,7 @@ const workExperiences = {
       desc: "Worked on developing crypto wallets, e-commerce apps for android devices. I was handed the responsibility to create the projects from scratch. Key features from the projects included encryption during transaction of crypto, P2P and group chat, e-store, social media apps.",
       descBullets: [
         "Restful API’s using JAVA, XML, Databinding",
-        ,"Data Structures",
+        "Data Structures",
   "Chat apps",
   "Crypto Wallets",
   "E-commerce Apps"
@@ -202,25 +202,113 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/nitbLogo.png"),
-      projectName: "Saayahealth",
+      image: require("./assets/images/abbcAppLogo.png"),
+      projectName: "Abbc",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://abbccoin.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/cityAppLogo.png"),
+      projectName: "ICT",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://nitb.gov.pk/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/passtrackLogo.png"),
+      projectName: "Pass Track",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://nitb.gov.pk/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ic_ezdealz_logo.png"),
+      projectName: "EzDealz",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.facebook.com/ezdealzpakistan/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/tyslinLogo.png"),
+      projectName: "Tyslin",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reactivespace.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/pmsLogo.jpg"),
+      projectName: "Project Managment System",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://nitb.gov.pk/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/reactiveStoresLogo.jpg"),
+      projectName: "Reactive Stores",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reactivespace.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/littleBirdLogo.jpg"),
+      projectName: "Little Bird",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reactivespace.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/covid19Logo.jpg"),
+      projectName: "Covid 19",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://nitb.gov.pk/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/g50.png"),
+      projectName: "Grand50",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reactivespace.com/"
         }
       ]
     }
@@ -346,8 +434,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3154290780",
+  email_address: "zainkhalid1991@gmail.com"
 };
 
 // Twitter Section
