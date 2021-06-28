@@ -227,7 +227,7 @@ const bigProjects = {
     {
       image: require("./assets/images/passtrackLogo.png"),
       projectName: "Pass Track",
-      projectDesc: "Pass track is used for record keeping of the travelers coming over to Pakistan in the time Covid-19 Pandemic.",
+      projectDesc: "Record keeping of the travelers coming over to Pakistan in the time Covid-19 Pandemic.",
       footerLink: [
         {
           name: "Visit Website",
@@ -238,7 +238,7 @@ const bigProjects = {
     {
       image: require("./assets/images/ic_ezdealz_logo.png"),
       projectName: "EzDealz",
-      projectDesc: "EzDealz is Pakistan’s first indigenous and unique mobile gaming application. Answering fun questions, guessing simple numeric codes and by solving riddles can get you rewards.",
+      projectDesc: "Pakistan’s first indigenous and unique mobile gaming application. Answering fun questions, guessing simple numeric codes and by solving riddles can get you rewards.",
       footerLink: [
         {
           name: "Visit Website",
@@ -293,7 +293,7 @@ const bigProjects = {
     {
       image: require("./assets/images/covid19Logo.jpg"),
       projectName: "Covid 19",
-      projectDesc: "Covid-19 app features Self-Assessment, Radius Alert, Pop Up Notification by reminding user of their personnel hygiene. This application also provides citizens with ChatBot and other awareness videos regarding the Epidemic and the ways we may control its spread.",
+      projectDesc: "Covid-19 app features Self-Assessment, Radius Alert, Pop Up Notification by reminding user of their personnel hygiene.",
       footerLink: [
         {
           name: "Visit Website",
