@@ -204,7 +204,7 @@ const bigProjects = {
     {
       image: require("./assets/images/abbcAppLogo.png"),
       projectName: "Abbc",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Crypto currency wallet used for trading.",
       footerLink: [
         {
           name: "Visit Website",
@@ -216,7 +216,7 @@ const bigProjects = {
     {
       image: require("./assets/images/cityAppLogo.png"),
       projectName: "ICT",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "E-Governace app used for different public facilities.",
       footerLink: [
         {
           name: "Visit Website",
@@ -227,7 +227,7 @@ const bigProjects = {
     {
       image: require("./assets/images/passtrackLogo.png"),
       projectName: "Pass Track",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Pass track is used for record keeping of the travelers coming over to Pakistan in the time Covid-19 Pandemic.",
       footerLink: [
         {
           name: "Visit Website",
@@ -238,7 +238,7 @@ const bigProjects = {
     {
       image: require("./assets/images/ic_ezdealz_logo.png"),
       projectName: "EzDealz",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "EzDealz is Pakistan’s first indigenous and unique mobile gaming application. Answering fun questions, guessing simple numeric codes and by solving riddles can get you rewards.",
       footerLink: [
         {
           name: "Visit Website",
@@ -249,7 +249,7 @@ const bigProjects = {
     {
       image: require("./assets/images/tyslinLogo.png"),
       projectName: "Tyslin",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Crypto currency wallet used for trading.",
       footerLink: [
         {
           name: "Visit Website",
@@ -260,7 +260,7 @@ const bigProjects = {
     {
       image: require("./assets/images/pmsLogo.jpg"),
       projectName: "Project Managment System",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "PMS is used as a managing tool for different ministries all over Pakistan",
       footerLink: [
         {
           name: "Visit Website",
@@ -271,7 +271,7 @@ const bigProjects = {
     {
       image: require("./assets/images/reactiveStoresLogo.jpg"),
       projectName: "Reactive Stores",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Buy any thing from anywhere using custom QR code scanner.",
       footerLink: [
         {
           name: "Visit Website",
@@ -282,7 +282,7 @@ const bigProjects = {
     {
       image: require("./assets/images/littleBirdLogo.jpg"),
       projectName: "Little Bird",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Social app for P2P and group chats.",
       footerLink: [
         {
           name: "Visit Website",
@@ -293,7 +293,7 @@ const bigProjects = {
     {
       image: require("./assets/images/covid19Logo.jpg"),
       projectName: "Covid 19",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Covid-19 app features Self-Assessment, Radius Alert, Pop Up Notification by reminding user of their personnel hygiene. This application also provides citizens with ChatBot and other awareness videos regarding the Epidemic and the ways we may control its spread.",
       footerLink: [
         {
           name: "Visit Website",
@@ -304,7 +304,7 @@ const bigProjects = {
     {
       image: require("./assets/images/g50.png"),
       projectName: "Grand50",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Crypto currency wallet used for trading of etherium and G50 token.",
       footerLink: [
         {
           name: "Visit Website",
