@@ -14,7 +14,7 @@ const greeting = {
   username: "",
   title: "Hi all, I'm Zain",
   subTitle: emoji(
-    "A passionate Android Developer 🚀 having an experience of building Mobile applications with Java / Kotlin / XML / Repository Pattern / MVVM architechures and some other cool libraries."
+    "A passionate Android Developer 🚀 having an experience of building Mobile applications with Java / Kotlin / XML / Hilt/ RoomDB/ Repository Pattern / MVVM plus Clean Architecture  and some other cool libraries."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1xdH89OMoxKrRdDypw83tU8CEzPLiZCet/view?usp=sharing",
@@ -44,7 +44,7 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your android mobile applications"
     ),
-    emoji("⚡ Progressive Applications using MVVM, Repository Pattern."),
+    emoji("⚡ Develop Applications using MVVM, Repository Pattern."),
     emoji(
       "⚡ Integration of third party services such as Firebase/ Retrofit / Dagger"
     )
