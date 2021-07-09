@@ -34,7 +34,7 @@
 }
 
 .project-card-dark {
-  box-shadow: 0px 10px 30px -15px $darkBoxShadow;
+  box-shadow: 0px 0px 0px 0px $darkBoxShadow;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.25s ease;
@@ -85,4 +85,9 @@
     font-size: 16px;
     text-align: center;
   }
+}
+.reveal {
+  display: block !important;
+  opacity: 1 !important;
+  
 }
